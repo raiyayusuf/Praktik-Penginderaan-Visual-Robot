@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-citra = cv2.imread(r'C:\Raiya Yusuf Priatmojo\Praktik Penginderaan Visual Robot\python\jobsheet5\img\peppers.jpg')
+citra = cv2.imread(r'python\jobsheet5\img\peppers.jpg')
 
 if citra is None:
     print("Error: Gambar tidak ditemukan atau tidak dapat dibaca.")
