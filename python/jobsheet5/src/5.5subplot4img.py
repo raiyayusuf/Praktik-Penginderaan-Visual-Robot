@@ -10,10 +10,10 @@ if citra1 is None or citra2 is None or citra3 is None or citra4 is None:
     print("Error: Salah satu gambar tidak dapat dibuka. Periksa path gambar.")
     exit()
 
-scale_percent = 20
-width = int(citra1.shape[1] * scale_percent / 100)
-height = int(citra1.shape[0] * scale_percent / 100)
-dim = (width, height)
+    scale_percent = 20
+    width = int(citra1.shape[1] * scale_percent / 100)
+    height = int(citra1.shape[0] * scale_percent / 100)
+    dim = (width, height)
 
 resized1 = cv2.resize(citra1, dim, interpolation=cv2.INTER_AREA)
 resized2 = cv2.resize(citra2, dim, interpolation=cv2.INTER_AREA)
