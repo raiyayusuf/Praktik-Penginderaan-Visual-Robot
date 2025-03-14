@@ -24,7 +24,6 @@ rgb1 = resized1[..., ::-1]
 rgb2 = resized2[..., ::-1]
 rgb3 = resized3[..., ::-1]
 rgb4 = resized4[..., ::-1]
-
 plt.subplot(221)
 plt.imshow(rgb1)
 plt.xticks([]), plt.yticks([])
