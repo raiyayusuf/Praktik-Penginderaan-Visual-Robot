@@ -1,0 +1,1 @@
+hurufA2.jpg
