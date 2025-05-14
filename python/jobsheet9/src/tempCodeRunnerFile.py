@@ -1,1 +1,1 @@
-hurufA2.jpg
+path_gambar = r'python\jobsheet9\img\guppyTrans.png'
