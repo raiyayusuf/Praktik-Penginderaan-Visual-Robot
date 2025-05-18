@@ -2,17 +2,16 @@ from ultralytics import YOLO
 import cv2 
 import math
 
-model = YOLO(r"projectTugasAkhir\model\signLanguangeV8version2-200x640-17mei2025.pt")
+model = YOLO(r"projectTugasAkhir\model\signLanguageV8version2-100x640-18mei2025.pt")
 
 classNames = model.names
 
-img = cv2.imread(r"projectTugasAkhir\img\brambanggoreng42.png")
+img = cv2.imread(r"projectTugasAkhir\img\brambanggoreng1286.png")
 if img is None:
     raise FileNotFoundError("Image not found")
 
 
 results = model(img, verbose=False)  
-print("Raw results:", results[0].boxes.data)
 
 
 LIGHT_BLUE = (255, 200, 100)  
