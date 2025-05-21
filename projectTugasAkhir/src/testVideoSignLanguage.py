@@ -28,7 +28,7 @@ while True:
             conf = math.ceil(box.conf[0].item() * 100) / 100
             cls_id = int(box.cls[0].item())
 
-            print(f"Detected: ID={cls_id}, Name={classNames[cls_id]}, Conf={conf}")
+            # print(f"Detected: ID={cls_id}, Name={classNames[cls_id]}, Conf={conf}")
             
             label = f"{classNames[cls_id]} {conf:.2f}"
 
